@@ -26,4 +26,24 @@ describe('geocode', function() {
     });
   });
 
+  describe('GET /geocode/convert/UTMtoLL', function() {
+    it('responds with json', function(done) {
+      wreck
+        .get('/geocode/convert/UTMtoLL?easting=534969.4&northing=6564263.3&zoneletter=N&zonenumber=32')
+        .set('Accept', 'application/json')
+        .expect('Content-Type', /json/)
+        .expect(200, done);
+    });
+  });
+
+  describe('GET /geocode/convert/LLtoUTM', function() {
+    it('responds with json', function(done) {
+      wreck
+        .get('/geocode/convert/LLtoUTM?lat=59.215987&lng=9.612515')
+        .set('Accept', 'application/json')
+        .expect('Content-Type', /json/)
+        .expect(200, done);
+    });
+  });
+
 });
