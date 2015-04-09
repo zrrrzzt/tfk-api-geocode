@@ -37,7 +37,6 @@
   },
   "dependencies": {
     "wgs84-util": "^1.0.3",
-    "wreck": "^5.3.0",
-    "xmlify": "^1.0.0"
+    "wreck": "^5.3.0"
   }
 }
