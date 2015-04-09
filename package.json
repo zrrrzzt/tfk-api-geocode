@@ -1,6 +1,6 @@
 {
   "name": "tfk-api-geocode",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Geocode plugin for tfk API",
   "author": {
     "name": "Geir Gåsodden",
@@ -12,7 +12,7 @@
     "node": ">=0.12.0"
   },
   "scripts": {
-    "setup": "node setup.js",
+    "setup": "npm install && node setup.js",
     "start": "node standalone.js",
     "test": "mocha --reporter spec test/*.js"
   },
