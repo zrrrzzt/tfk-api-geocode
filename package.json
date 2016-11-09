@@ -30,15 +30,15 @@
     "url": "http://github.com/zrrrzzt/tfk-api-geocode/issues"
   },
   "devDependencies": {
-    "hapi": "^8.2.0",
-    "jscs": "^1.11.3",
-    "mocha": "^2.2.0",
-    "supertest": "^0.15.0"
+    "hapi": "^15.2.0",
+    "jscs": "^3.0.7",
+    "mocha": "^3.1.2",
+    "supertest": "^2.0.1"
   },
   "dependencies": {
-    "joi": "^6.1.0",
-    "lout": "^6.2.2",
-    "wgs84-util": "^1.0.3",
-    "wreck": "^5.3.0"
+    "joi": "^9.2.0",
+    "lout": "^9.2.0",
+    "wgs84-util": "^3.0.0",
+    "wreck": "^10.0.0"
   }
 }
