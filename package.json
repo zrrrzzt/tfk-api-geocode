@@ -30,7 +30,7 @@
     "url": "http://github.com/zrrrzzt/tfk-api-geocode/issues"
   },
   "devDependencies": {
-    "hapi": "18.0.0",
+    "hapi": "18.1.0",
     "jscs": "3.0.7",
     "mocha": "5.2.0",
     "supertest": "3.4.2"
