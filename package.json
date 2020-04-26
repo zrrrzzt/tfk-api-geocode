@@ -32,7 +32,7 @@
   "devDependencies": {
     "hapi": "18.1.0",
     "jscs": "3.0.7",
-    "mocha": "7.1.1",
+    "mocha": "7.1.2",
     "supertest": "4.0.2"
   },
   "dependencies": {
