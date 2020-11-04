@@ -33,7 +33,7 @@
     "hapi": "18.1.0",
     "jscs": "3.0.7",
     "mocha": "8.2.1",
-    "supertest": "5.0.0"
+    "supertest": "6.0.0"
   },
   "dependencies": {
     "joi": "^17.0.0",
